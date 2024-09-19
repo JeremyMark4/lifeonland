@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Gazelle.jpg);
+  min-height: 100vh;
+  background-size: contain;
+}
+.wrapper{
+    width: 420px;
+    background-color: burlywood;
+    color: antiquewhite;
+}
+.wrapper h1{
+    font size: 40px;
+    text align:center 
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    background: yellowgreen;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: goldenrod;
+    font-size: 16px;
+     border: radius 40px;
+     color: aliceblue;
+      border-radius: 40px;
+      padding: 20px 45px 20px 20px;
+}
+.input-box input ::placeholder{
+    color: antiquewhite;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+    left: 10px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.remember-forgot a{
+
+}
